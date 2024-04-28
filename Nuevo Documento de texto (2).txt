@@ -1,0 +1,5 @@
+private void printDocument1_PrintPage(object sender,System.Drawing.Printing.PrintPageEventArgs e)
+{
+
+e.Graphics.DrawString(txt_descripcion.Text,new Font("Arial", 80, FontStyle.Bold), Brushes.Black, 150, 125);
+}
